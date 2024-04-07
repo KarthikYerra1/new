@@ -4,7 +4,7 @@ const SuccessComponent = ({ email = "", handleDismiss = () => {} }) => {
     <div>
       <div className="success-message">
         <img
-          src="../../assets/images/icon-success.svg"
+          src="../assets/images/icon-success.svg"
           width="64"
           height="64"
         />

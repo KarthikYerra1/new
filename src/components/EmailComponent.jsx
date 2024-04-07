@@ -56,13 +56,13 @@ const EmailComponent = ({ formSubmissionEmail = () => {} }) => {
     <>
       <div className="img-container">
         <img
-          src="../../assets/images/illustration-sign-up-desktop.svg"
+          src="../assets/images/illustration-sign-up-desktop.svg"
           width="400"
           height="593"
           className=" desktop-img"
         />
         <img
-          src="../../assets/images/illustration-sign-up-mobile.svg"
+          src="../assets/images/illustration-sign-up-mobile.svg"
           width="375"
           height="284"
           className=" mobile-img"
@@ -75,15 +75,15 @@ const EmailComponent = ({ formSubmissionEmail = () => {} }) => {
         </p>
         <ul>
           <li>
-            <img src="../../assets/images/icon-list.svg" />
+            <img src="../assets/images/icon-list.svg" />
             <p>Product discovery and building what matters</p>
           </li>
           <li>
-            <img src="../../assets/images/icon-list.svg" />
+            <img src="../assets/images/icon-list.svg" />
             <p>Measuring to ensure updates are a success</p>
           </li>
           <li>
-            <img src="../../assets/images/icon-list.svg" />
+            <img src="../assets/images/icon-list.svg" />
             <p>And much more!</p>
           </li>
         </ul>
