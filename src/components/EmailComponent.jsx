@@ -1,6 +1,10 @@
 /* eslint-disable react/prop-types */
 import { useState } from "react";
 
+import desktop from "../assets/images/desktop.svg";
+import mobile from "../assets/images/mobile.svg";
+import tick from "../assets/images/tick.svg";
+
 const EmailComponent = ({ formSubmissionEmail = () => {} }) => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState(false);
@@ -55,18 +59,8 @@ const EmailComponent = ({ formSubmissionEmail = () => {} }) => {
   return (
     <>
       <div className="img-container">
-        <img
-          src="../assets/images/illustration-sign-up-desktop.svg"
-          width="400"
-          height="593"
-          className=" desktop-img"
-        />
-        <img
-          src="../assets/images/illustration-sign-up-mobile.svg"
-          width="375"
-          height="284"
-          className=" mobile-img"
-        />
+        <img src={desktop} width="400" height="593" className=" desktop-img" />
+        <img src={mobile} width="375" height="284" className=" mobile-img" />
       </div>
       <form className="form-container" onSubmit={handleSubmitForm}>
         <h1 className="heading">Stay Updated!</h1>
@@ -75,15 +69,15 @@ const EmailComponent = ({ formSubmissionEmail = () => {} }) => {
         </p>
         <ul>
           <li>
-            <img src="../assets/images/icon-list.svg" />
+            <img src={tick} />
             <p>Product discovery and building what matters</p>
           </li>
           <li>
-            <img src="../assets/images/icon-list.svg" />
+            <img src={tick} />
             <p>Measuring to ensure updates are a success</p>
           </li>
           <li>
-            <img src="../assets/images/icon-list.svg" />
+            <img src={tick} />
             <p>And much more!</p>
           </li>
         </ul>

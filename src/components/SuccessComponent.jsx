@@ -1,13 +1,11 @@
 /* eslint-disable react/prop-types */
+import success from "../assets/images/success.svg";
+
 const SuccessComponent = ({ email = "", handleDismiss = () => {} }) => {
   return (
     <div>
       <div className="success-message">
-        <img
-          src="../assets/images/icon-success.svg"
-          width="64"
-          height="64"
-        />
+        <img src={success} width="64" height="64" />
         <h1>Thanks for subscribing!</h1>
         <p>
           A confirmation email has been sent to <span>{email}</span>. <br />
