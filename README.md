@@ -18,7 +18,7 @@ Users should be able to:
 
 ## Video Preview
 
-![Check out video preview here](./design/Recording%202024-04-07%20050407.mp4)(./design/Recording%202024-04-07%20050407.mp4)
+[![Check out video preview here](./design/Recording%202024-04-07%20050407.mp4)](./design/Recording%202024-04-07%20050407.mp4)
 
 ### Links
 
